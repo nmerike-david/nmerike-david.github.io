@@ -1,0 +1,72 @@
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.question-body{
+    width: 80%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.off{
+    padding: 1.5rem;    
+
+}
+
+.score {color: white}
+
+.question-score {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.question {font-weight: bolder; 
+    color: white; 
+
+}
+
+.options {
+    padding:  1.5rem;    
+    background-color: goldenrod;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.options span {
+    margin: 0.8rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.navigation {
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: goldenrod;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
